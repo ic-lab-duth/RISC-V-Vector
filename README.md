@@ -71,4 +71,4 @@ To cite this work please use
 
 
 ## License
-Taskflow is licensed under the [MIT License](./LICENSE).
+RISC-V<sup>2</sup> is licensed under the [MIT License](./LICENSE).
