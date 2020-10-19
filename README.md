@@ -1,13 +1,12 @@
 # Overview
 
 ### RISC-V<sup>2</sup>: A vector processor implementing the RISC-V Vector ISA extension
-Vector architectures are almost unique in their ability to effectively combine high programmability attributes, high computational throughput, and high energy efficiency. This work builds an efficient vector processor that implements the upcoming RISC-V vector ISA extension.
-
-The proposed architecture is founded on the traditional tenets of vector processing, and it introduces novel techniques that reap high performance benefits in a cost-effective implementation. 
+Vector architectures are almost unique in their ability to effectively combine high programmability attributes, high computational throughput, and high energy efficiency. This work builds an efficient vector processor that implements the upcoming RISC-V vector ISA extension. The proposed architecture is founded on the traditional tenets of vector processing, and it introduces novel techniques that reap high performance benefits in a cost-effective implementation: 
 
 - A new register remapping technique that together with a dynamically allocated register file enable dynamic hardware-based loop unrolling 
 and optimized instruction scheduling at run-time.
-- The design’s decoupled execution scheme employs resource acquire-and-release semantics to disambiguate between parallel computation and memory-access instruc- tion streams, thereby allowing for independent execution/memory flow rates.
+- The design’s decoupled execution scheme employs resource acquire-and-release semantics to disambiguate between parallel computation and memory-access 
+instruction streams, thereby allowing for independent execution/memory flow rates.
 - A dynamically generated hardware reduction tree enables significant acceleration of reduction intstructions.
 - Variable execution latency based on instruction type
 
