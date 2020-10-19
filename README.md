@@ -1,6 +1,4 @@
-# Overview
-
-### RISC-V<sup>2</sup>: A vector processor implementing the RISC-V Vector ISA extension
+## RISC-V<sup>2</sup>: A vector processor implementing the RISC-V Vector ISA extension
 Vector architectures are almost unique in their ability to effectively combine high programmability attributes, high computational throughput, and high energy efficiency. This work builds an efficient vector processor that implements the upcoming RISC-V vector ISA extension. The proposed architecture is founded on the traditional tenets of vector processing, and it introduces novel techniques that reap high performance benefits in a cost-effective implementation: 
 
 - A new register remapping technique that together with a dynamically allocated register file enable dynamic hardware-based loop unrolling 
@@ -12,14 +10,13 @@ instruction streams, thereby allowing for independent execution/memory flow rate
 
 RISC-V<sup>2</sup> is integrated in a two-way superscalar OoO core. 
 
-<img align="left" src="images/core_ppln.png" width="40%"> 
+<img align="center" src="images/core_ppln.png" width="40%"> 
 
 The scalar core acts as the main control processor, with all the instructions being fetched and decoded in the scalar pipeline.
 During the superscalar issue stage, the instructions are diverted to the correct path (i.e., scalar, or vector), based on their type. 
 A vector instruction queue decouples the execution rates of the two datapaths. 
 
 At the moment, the RTL of the scalar core is not publicly shared. We will fix this soon.
-
 
 ## Directory Hierarchy
 
