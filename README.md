@@ -1,16 +1,26 @@
 # Overview
 
 ### RISC-V<sup>2</sup>: A vector processor implementing the RISC-V Vector ISA extension
+Vector architectures are almost unique in their ability to effectively combine high programmability attributes, high computational throughput, and high energy efficiency. This work builds an efficient vector processor that implements the upcoming RISC-V vector ISA extension.
 
-Features:
+The proposed architecture is founded on the traditional tenets of vector processing, and it introduces novel techniques that reap high performance benefits in a cost-effective implementation. 
+
+- A new register remapping technique that together with a dynamically allocated register file enable dynamic hardware-based loop unrolling 
+and optimized instruction scheduling at run-time.
+- The design’s decoupled execution scheme employs resource acquire-and-release semantics to disambiguate between parallel computation and memory-access instruc- tion streams, thereby allowing for independent execution/memory flow rates.
+- A dynamically generated hardware reduction tree enables significant acceleration of reduction intstructions.
 - Variable execution latency based on instruction type
-- A register remapping scheme to support the RISC-V ISA's register groups and dynamic register file allocation
-- A decoupled execution scheme that separates memory and computation instructions
-- Hardware support for reduction operations
 
-| <img align="center" src="images/core_ppln.png" width="40%"> |
-|:--:|
-| *Overview of the Scalar and Vector pipelines* |
+RISC-V<sup>2</sup> is integrated in a two-way superscalar OoO core. 
+
+<img align="left" src="images/core_ppln.png" width="40%"> 
+
+The scalar core acts as the main control processor, with all the instructions being fetched and decoded in the scalar pipeline.
+During the superscalar issue stage, the instructions are diverted to the correct path (i.e., scalar, or vector), based on their type. 
+A vector instruction queue decouples the execution rates of the two datapaths. 
+
+At the moment, the RTL of the scalar core is not publicly shared. We will fix this soon.
+
 
 ## Directory Hierarchy
 
@@ -34,7 +44,6 @@ The folder hierarchy is organised as follows:
 - Decouple the vis<>vmu paths, which are currently very pressed for timing. Trials made in that area resulted in a much smaller footprint, due to the decompressed hardware
 - Add back-pressure on the execution pipes, to allow for `vector_lanes > 16` configurations (Needed by the reduction tree to support more lanes)
 - Add Floating point execution lanes
-
 
 ## The provided simulator
 The repo at it's current stage contains the vector datapath, as well as a testbench that can be used to simulate payloads on it. The superscalar core is not provided yet, but will be released in the future. The hierarchy can be seen below:
@@ -63,6 +72,7 @@ To cite this work please use
   number={},
   pages={1-5},}
 ```
+
 
 ## License
 Taskflow is licensed under the [MIT License](./LICENSE).
