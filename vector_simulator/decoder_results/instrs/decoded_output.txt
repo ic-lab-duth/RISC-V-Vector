@@ -1,0 +1,442 @@
+reconfigure: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=80
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=80
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+['vld', ' v0', ' #0']: valid=1, dst=00000, src1=00000, src2=-, data1=00000000000000000000000000000000, data2=-, reconfigure=0, immediate=00000000000000000000000000000000, fu=00, microop=1000000, vl=40
+['vld', ' v1', ' #2048']: valid=1, dst=00001, src1=00000, src2=-, data1=00000000000000000000100000000000, data2=-, reconfigure=0, immediate=00000000000000000000100000000000, fu=00, microop=1000000, vl=40
+['vadd', ' v2', ' v0', ' v1']: valid=1, dst=00010, src1=00000, src2=00001, data1=00000000000000000000000000000000, data2=00000000000000000000000000000000, reconfigure=0, immediate=00000000000000000000000000000000, fu=10, microop=0000001, vl=40
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80
+BUBBLE CYCLE: maxvl == 80

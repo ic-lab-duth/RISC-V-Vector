@@ -1,0 +1,12 @@
+//==========================
+// vvadd for 5000 elements
+// after copying the instr.csv, run with:
+// > python .\sim_generator.py .\instrs.csv 5000 VECTOR_LANES
+// where VECTOR_LANES the number of the RTLs vector lanes
+//==========================
+//load the first array
+vld, v0, #0
+//load the second array
+vld, v1, #2048
+//add the result
+vadd, v2, v0, v1

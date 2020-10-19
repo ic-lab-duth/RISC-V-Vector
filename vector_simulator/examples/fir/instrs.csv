@@ -1,0 +1,32 @@
+//==========================
+// FIR filter for 5000 el
+// after copying the instr.csv, run with:
+// > python .\sim_generator.py .\instrs.csv 5000 VECTOR_LANES
+// where VECTOR_LANES the number of the RTLs vector lanes
+//==========================
+//load third tap (-2) & mul
+vld, v2, #8
+vslli, v2, v2, #2
+//load second tap (-1) & mul
+vld, v3, #12
+vmul, v3, v3, #3
+//-------------------------
+//add the first two
+vadd, v5, v3, v2
+//-------------------------
+//load first tap & mul
+vld, v4, #16
+vmul, v4, v4, #3
+//load first tap (-4)
+vld, v0, #0
+//-------------------------
+//add two more
+vadd, v6, v4, v0
+//-------------------------
+//load second tap (-3)
+vld, v1, #4
+//-------------------------
+// add first sum and new vector
+vadd, v5, v5, v1
+// final addition
+vadd, v5, v5, v6

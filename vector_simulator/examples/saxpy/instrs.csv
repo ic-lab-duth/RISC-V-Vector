@@ -1,0 +1,20 @@
+//==========================
+// saxpy for 5000 elements
+// after copying the instr.csv, run with:
+// > python .\sim_generator.py .\instrs.csv 5000 VECTOR_LANES
+// where VECTOR_LANES the number of the RTLs vector lanes
+//==========================
+//load conditions
+vld, v1, #0
+//load x
+vld, v2, #640
+//load y
+vld, v3, #1280
+// compare cond
+vseq, v1, v1, v1
+// mul a*x
+vmul, v4, v3, v3
+// add a*x+y
+vadd, v4, v4, v2
+// store result
+vsw, v4, #2560
