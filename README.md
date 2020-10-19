@@ -1,6 +1,6 @@
 # Overview
 
-A configurable scalable Vector Datapath, tailored for the RISC-V ISA.
+### RISC-V<sup>2</sup>: A vector processor implementing the RISC-V Vector ISA extension
 
 Features:
 - Variable execution latency based on instruction type
@@ -8,12 +8,11 @@ Features:
 - A decoupled execution scheme that separates memory and computation instructions
 - Hardware support for reduction operations
 
-
-| ![vector_overview](/images/core_ppln.png) |
+| <img align="center" src="images/core_ppln.png" width="40%"> |
 |:--:|
 | *Overview of the Scalar and Vector pipelines* |
 
-### Directory Hierarchy
+## Directory Hierarchy
 
 The folder hierarchy is organised as follows:
 - `images`: schematics and instruction mappings to microops
@@ -48,3 +47,22 @@ _**TB Level Hierarchy:**_
 | vector_sim_top   | top level of the TB, instantiating the vector datapath and the scalar simulator. |
 | vector_driver    | The TB driver that feeds the vector datapath with decoded vector instructions. |
 | vector_top       | The top level of the vector datapath, as shown in figure 2. |
+
+## Reference
+RISC-V<sup>2</sup> architecture and performance is presented in
+IEEE International Symposium on Circuits and Systems, Oct. 2020. You can find the paper
+[paper](https://ieeexplore.ieee.org/document/9181071) here.
+To cite this work please use
+```
+@INPROCEEDINGS{risc-v-squared,
+  author={K. {Patsidis} and C. {Nicopoulos} and G. C. {Sirakoulis} and G. {Dimitrakopoulos}},
+  booktitle={2020 IEEE International Symposium on Circuits and Systems (ISCAS)}, 
+  title={RISC-V^$2$: A Scalable RISC-V Vector Processor}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-5},}
+```
+
+## License
+Taskflow is licensed under the [MIT License](./LICENSE).
